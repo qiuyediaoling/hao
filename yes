@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+float fun(float x,int y)
+{ 
+int i;
+float result=1;
+
+
+for(i=1;i<=y;i++) result=result*x;
+return result;
+}
+void main()
+
+{float a,p ;
+int b;
+scanf("%f%d",&a,&b);
+ p=fun(a,b);
+
+printf("%8.2f\n",a,b,p);
+}
